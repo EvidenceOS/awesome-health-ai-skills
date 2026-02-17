@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-17",
+  "total_skills": 12,
+  "categories": 6,
+  "skills": [
+    {
+      "name": "fhir-resource-basics",
+      "description": "Read, interpret, and create basic FHIR resources for health data exchange",
+      "category": "digital-health-foundations",
+      "raigh_tier": "MOOC",
+      "difficulty": "beginner",
+      "estimated_time": "3 hours",
+      "prerequisites": [],
+      "tags": ["fhir", "interoperability", "hl7", "health-data", "standards"],
+      "path": "skills/digital-health-foundations/fhir-resource-basics/SKILL.md"
+    },
+    {
+      "name": "dhis2-data-entry",
+      "description": "Navigate DHIS2 for health data entry, reporting, and dashboard interpretation",
+      "category": "digital-health-foundations",
+      "raigh_tier": "MOOC",
+      "difficulty": "beginner",
+      "estimated_time": "2 hours",
+      "prerequisites": [],
+      "tags": ["dhis2", "hmis", "data-entry", "dashboards", "surveillance"],
+      "path": "skills/digital-health-foundations/dhis2-data-entry/SKILL.md"
+    },
+    {
+      "name": "digitalize-paper-records",
+      "description": "Systematic protocol for converting paper health records to structured digital formats",
+      "category": "digital-health-foundations",
+      "raigh_tier": "MOOC",
+      "difficulty": "beginner",
+      "estimated_time": "4 hours",
+      "prerequisites": ["fhir-resource-basics"],
+      "tags": ["digitalization", "records", "data-entry", "data-quality", "lmic"],
+      "path": "skills/digital-health-foundations/digitalize-paper-records/SKILL.md"
+    },
+    {
+      "name": "run-tripod-ai-checklist",
+      "description": "Apply the TRIPOD+AI checklist to evaluate a published health AI study",
+      "category": "ai-evaluation",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_time": "3 hours",
+      "prerequisites": ["fhir-resource-basics"],
+      "tags": ["tripod", "reporting-standards", "critical-appraisal", "evidence", "methodology"],
+      "path": "skills/ai-evaluation/run-tripod-ai-checklist/SKILL.md"
+    },
+    {
+      "name": "evaluate-model-calibration",
+      "description": "Assess whether a health AI model's predicted probabilities match observed outcomes",
+      "category": "ai-evaluation",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_time": "4 hours",
+      "prerequisites": ["run-tripod-ai-checklist"],
+      "tags": ["calibration", "ece", "brier-score", "reliability-diagram", "clinical-trust"],
+      "path": "skills/ai-evaluation/evaluate-model-calibration/SKILL.md"
+    },
+    {
+      "name": "decision-curve-analysis",
+      "description": "Perform Decision Curve Analysis to determine if a health AI model improves clinical decisions",
+      "category": "ai-evaluation",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_time": "3 hours",
+      "prerequisites": ["evaluate-model-calibration"],
+      "tags": ["dca", "net-benefit", "clinical-utility", "threshold", "decision-making"],
+      "path": "skills/ai-evaluation/decision-curve-analysis/SKILL.md"
+    },
+    {
+      "name": "evidence-chain-assessment",
+      "description": "Map a health AI tool through the 5-phase evidence chain from lab to deployment",
+      "category": "clinical-ai",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_time": "4 hours",
+      "prerequisites": ["run-tripod-ai-checklist"],
+      "tags": ["evidence", "validation", "deployment", "clinical-ai", "lifecycle"],
+      "path": "skills/clinical-ai/evidence-chain-assessment/SKILL.md"
+    },
+    {
+      "name": "bridge-tbi-protocol",
+      "description": "Understand and apply the BRIDGE-TBI biomarker-guided CT decision protocol",
+      "category": "clinical-ai",
+      "raigh_tier": "tier-2",
+      "difficulty": "advanced",
+      "estimated_time": "5 hours",
+      "prerequisites": ["evidence-chain-assessment", "evaluate-model-calibration"],
+      "tags": ["tbi", "biomarkers", "gfap", "uch-l2", "ct-reduction", "bridge", "clinical-protocol"],
+      "path": "skills/clinical-ai/bridge-tbi-protocol/SKILL.md"
+    },
+    {
+      "name": "model-card-generator",
+      "description": "Create a standardized model card documenting a health AI system's capabilities, limitations, and evidence",
+      "category": "clinical-ai",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_time": "3 hours",
+      "prerequisites": ["run-tripod-ai-checklist", "evidence-chain-assessment"],
+      "tags": ["model-card", "documentation", "transparency", "fairness", "deployment"],
+      "path": "skills/clinical-ai/model-card-generator/SKILL.md"
+    },
+    {
+      "name": "xroad-setup",
+      "description": "Install and configure an X-Road Security Server for health data exchange",
+      "category": "dpi-architecture",
+      "raigh_tier": "tier-2",
+      "difficulty": "advanced",
+      "estimated_time": "8 hours",
+      "prerequisites": ["fhir-resource-basics"],
+      "tags": ["xroad", "dpi", "interoperability", "security-server", "data-exchange", "estonia"],
+      "path": "skills/dpi-architecture/xroad-setup/SKILL.md"
+    },
+    {
+      "name": "regulatory-landscape-analysis",
+      "description": "Map the AI health regulatory landscape for a specific country or region",
+      "category": "regulatory",
+      "raigh_tier": "tier-2",
+      "difficulty": "intermediate",
+      "estimated_time": "6 hours",
+      "prerequisites": ["run-tripod-ai-checklist"],
+      "tags": ["regulation", "fda", "eu-ai-act", "africa", "compliance", "landscape"],
+      "path": "skills/regulatory/regulatory-landscape-analysis/SKILL.md"
+    },
+    {
+      "name": "medical-school-audit",
+      "description": "Conduct a comprehensive digital maturity and AI readiness audit of a medical school",
+      "category": "institutional-intelligence",
+      "raigh_tier": "tier-2",
+      "difficulty": "intermediate",
+      "estimated_time": "8 hours",
+      "prerequisites": ["digitalize-paper-records", "dhis2-data-entry"],
+      "tags": ["institutional-intelligence", "medical-education", "digitalization", "audit", "ai-readiness"],
+      "path": "skills/institutional-intelligence/medical-school-audit/SKILL.md"
+    },
+    {
+      "name": "ai-readiness-scorecard",
+      "description": "Score a health institution on 10 dimensions of AI readiness",
+      "category": "institutional-intelligence",
+      "raigh_tier": "tier-1",
+      "difficulty": "beginner",
+      "estimated_time": "2 hours",
+      "prerequisites": [],
+      "tags": ["ai-readiness", "assessment", "institutional", "scorecard", "digital-maturity"],
+      "path": "skills/institutional-intelligence/ai-readiness-scorecard/SKILL.md"
+    },
+    {
+      "name": "student-record-migration",
+      "description": "Protocol for migrating medical student academic records from paper to structured digital systems",
+      "category": "institutional-intelligence",
+      "raigh_tier": "tier-2",
+      "difficulty": "intermediate",
+      "estimated_time": "6 hours",
+      "prerequisites": ["digitalize-paper-records", "medical-school-audit"],
+      "tags": ["migration", "student-records", "academic", "database", "digitalization"],
+      "path": "skills/institutional-intelligence/student-record-migration/SKILL.md"
+    }
+  ]
+}

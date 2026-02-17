@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-17",
+  "description": "End-to-end workflows that chain skills into complete professional objectives",
+  "workflows": [
+    {
+      "id": "institutional-intelligence-pilot",
+      "name": "Medical School Digital Transformation Pilot",
+      "description": "Complete end-to-end workflow for digitalizing a medical school, from initial assessment to first AI-ready data. Designed for the University of Liberia pilot and replicable across African medical schools.",
+      "estimated_total_time": "40 hours (spread over 8-12 weeks)",
+      "target_outcome": "Institution assessed, records migrated, first dashboard live, AI readiness scored",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Quick Assessment",
+          "skill": "ai-readiness-scorecard",
+          "description": "Rapid 2-hour assessment to understand current state and prioritize",
+          "output": "AI Readiness Scorecard (0-100) + radar chart"
+        },
+        {
+          "step": 2,
+          "name": "Deep Audit",
+          "skill": "medical-school-audit",
+          "description": "Full 10-dimension audit with stakeholder interviews",
+          "output": "Audit report + quick wins list + digitalization roadmap"
+        },
+        {
+          "step": 3,
+          "name": "Records Priority",
+          "skill": "digitalize-paper-records",
+          "description": "Inventory all paper records, score priorities, design data entry forms",
+          "output": "Record inventory + priority matrix + data entry form design"
+        },
+        {
+          "step": 4,
+          "name": "Student Record Migration",
+          "skill": "student-record-migration",
+          "description": "Migrate highest-priority student records to digital system",
+          "output": "Populated database + quality report + analytics dashboard"
+        },
+        {
+          "step": 5,
+          "name": "Health Data Literacy",
+          "skill": "fhir-resource-basics",
+          "description": "Train faculty and selected students on health data standards",
+          "output": "Trained cohort + FHIR resources created from institutional data"
+        },
+        {
+          "step": 6,
+          "name": "DHIS2 Integration",
+          "skill": "dhis2-data-entry",
+          "description": "Connect institutional data to national health information systems",
+          "output": "DHIS2 data entry capability + dashboard interpretation skills"
+        }
+      ],
+      "success_criteria": [
+        "AI Readiness Score documented for the institution",
+        "At least 1 paper record type fully migrated to digital",
+        "Analytics dashboard live with real institutional data",
+        "At least 5 faculty/students trained on health data standards",
+        "Replicable template documented for next institution"
+      ]
+    },
+    {
+      "id": "health-ai-evidence-evaluator",
+      "name": "Become a Health AI Evidence Evaluator",
+      "description": "Complete pathway from understanding health data to critically evaluating any health AI claim. Produces a portfolio of evidence assessments suitable for the RAIGH Tier 1 certification.",
+      "estimated_total_time": "20 hours (spread over 8 weeks)",
+      "target_outcome": "Practitioner can independently evaluate health AI evidence and produce model cards",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Data Foundations",
+          "skill": "fhir-resource-basics",
+          "description": "Understand the data that health AI consumes",
+          "output": "FHIR resources created and validated"
+        },
+        {
+          "step": 2,
+          "name": "Reporting Standards",
+          "skill": "run-tripod-ai-checklist",
+          "description": "Learn to evaluate whether a study is properly reported",
+          "output": "TRIPOD+AI assessment of 1 published study"
+        },
+        {
+          "step": 3,
+          "name": "Calibration Assessment",
+          "skill": "evaluate-model-calibration",
+          "description": "Go beyond AUROC — assess whether predicted probabilities are trustworthy",
+          "output": "Reliability diagram + ECE calculation + clinical interpretation"
+        },
+        {
+          "step": 4,
+          "name": "Clinical Utility",
+          "skill": "decision-curve-analysis",
+          "description": "Determine whether the model actually improves decisions",
+          "output": "Decision curve + threshold analysis + clinical recommendation"
+        },
+        {
+          "step": 5,
+          "name": "Evidence Chain",
+          "skill": "evidence-chain-assessment",
+          "description": "Map the full evidence lifecycle from lab to deployment",
+          "output": "5-phase evidence chain map + gap analysis"
+        },
+        {
+          "step": 6,
+          "name": "Model Documentation",
+          "skill": "model-card-generator",
+          "description": "Synthesize everything into a standardized model card",
+          "output": "Complete model card + narrative summary"
+        }
+      ],
+      "success_criteria": [
+        "Portfolio of 6 artifacts demonstrating health AI evaluation competency",
+        "At least 1 complete model card for a real health AI tool",
+        "Evidence chain assessment identifying gaps in a published tool",
+        "Clinical recommendation based on DCA for a specific use case",
+        "Ready for PAATHI Tier 1 certification assessment"
+      ]
+    }
+  ]
+}

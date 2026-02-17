@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-17",
+  "description": "RAIGH Academy skill bundles — role-based collections mapped to certification tiers",
+  "bundles": [
+    {
+      "id": "digital-health-foundations",
+      "name": "Digital Health Foundations",
+      "description": "Core digital health literacy for every health professional. Covers FHIR, DHIS2, records digitalization, and health data systems.",
+      "raigh_tier": "MOOC",
+      "difficulty": "beginner",
+      "estimated_total_time": "9 hours",
+      "target_audience": "All medical students, health workers, administrators",
+      "certification": "PAATHI Certificate of Completion — Digital Health Foundations",
+      "skills": [
+        "fhir-resource-basics",
+        "dhis2-data-entry",
+        "digitalize-paper-records"
+      ],
+      "learning_outcomes": [
+        "Navigate FHIR resources and understand health data standards",
+        "Enter and interpret data in DHIS2",
+        "Design and execute a paper-to-digital migration protocol"
+      ]
+    },
+    {
+      "id": "ai-evaluation-practitioner",
+      "name": "AI Evaluation Practitioner",
+      "description": "Critical appraisal of health AI evidence. Covers TRIPOD+AI, calibration, DCA, and model evaluation.",
+      "raigh_tier": "tier-1",
+      "difficulty": "intermediate",
+      "estimated_total_time": "10 hours",
+      "target_audience": "Clinical students (Year 4-6), researchers, health informaticians",
+      "certification": "PAATHI Certified AI Health Practitioner",
+      "skills": [
+        "run-tripod-ai-checklist",
+        "evaluate-model-calibration",
+        "decision-curve-analysis"
+      ],
+      "learning_outcomes": [
+        "Systematically evaluate health AI studies using TRIPOD+AI",
+        "Assess model calibration and its clinical implications",
+        "Determine clinical utility using Decision Curve Analysis"
+      ]
+    },
+    {
+      "id": "clinical-ai-deployer",
+      "name": "Clinical AI Deployer",
+      "description": "End-to-end clinical AI assessment from evidence chain to model documentation. Includes BRIDGE-TBI protocol as a case study.",
+      "raigh_tier": "tier-2",
+      "difficulty": "advanced",
+      "estimated_total_time": "12 hours",
+      "target_audience": "Clinical informaticians, deployment leads, hospital IT directors",
+      "certification": "PAATHI Certified Clinical AI Specialist",
+      "skills": [
+        "evidence-chain-assessment",
+        "bridge-tbi-protocol",
+        "model-card-generator"
+      ],
+      "learning_outcomes": [
+        "Map any health AI tool through the 5-phase evidence chain",
+        "Apply the BRIDGE-TBI biomarker protocol and adapt for LMIC settings",
+        "Create comprehensive model cards for regulatory and clinical use"
+      ]
+    },
+    {
+      "id": "dpi-architect",
+      "name": "DPI Architect",
+      "description": "Digital public infrastructure for health data exchange. Covers X-Road, interoperability platforms, and national health data architecture.",
+      "raigh_tier": "tier-2",
+      "difficulty": "advanced",
+      "estimated_total_time": "8 hours",
+      "target_audience": "Systems architects, national health IT leads, AIDA practitioners",
+      "certification": "PAATHI Certified DPI Architect",
+      "skills": [
+        "xroad-setup"
+      ],
+      "planned_skills": [
+        "dhis2-adx-export",
+        "openhim-mediator",
+        "mosip-integration"
+      ],
+      "learning_outcomes": [
+        "Deploy and configure X-Road Security Servers for health data exchange",
+        "Design interoperable health data architectures using open standards"
+      ]
+    },
+    {
+      "id": "regulatory-navigator",
+      "name": "Regulatory Navigator",
+      "description": "Health AI regulatory compliance across jurisdictions. Covers landscape analysis, FDA, EU AI Act, and African regulatory frameworks.",
+      "raigh_tier": "tier-2",
+      "difficulty": "intermediate",
+      "estimated_total_time": "6 hours",
+      "target_audience": "Regulatory affairs professionals, policy advisors, health AI companies",
+      "certification": "PAATHI Certified Regulatory Navigator",
+      "skills": [
+        "regulatory-landscape-analysis"
+      ],
+      "planned_skills": [
+        "fda-510k-prep",
+        "eu-ai-act-check",
+        "cdisc-sdtm-mapping"
+      ],
+      "learning_outcomes": [
+        "Conduct structured regulatory landscape analysis for any country",
+        "Navigate health AI regulatory pathways across jurisdictions"
+      ]
+    },
+    {
+      "id": "institutional-intelligence",
+      "name": "Institutional Intelligence",
+      "description": "Digitalize and transform health education institutions. Covers AI readiness assessment, medical school audits, and student record migration.",
+      "raigh_tier": "tier-2",
+      "difficulty": "intermediate",
+      "estimated_total_time": "16 hours",
+      "target_audience": "University administrators, medical school leadership, education technologists",
+      "certification": "PAATHI Certified Institutional Intelligence Specialist",
+      "skills": [
+        "ai-readiness-scorecard",
+        "medical-school-audit",
+        "student-record-migration"
+      ],
+      "learning_outcomes": [
+        "Assess institutional AI readiness using a standardized scorecard",
+        "Conduct comprehensive digital maturity audits of medical schools",
+        "Design and execute student record migration projects"
+      ]
+    }
+  ]
+}
