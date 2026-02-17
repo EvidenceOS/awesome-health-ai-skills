@@ -32,6 +32,7 @@ REQUIRED_SECTIONS = [
 ]
 
 VALID_CATEGORIES = [
+    "pre-mooc",
     "digital-health-foundations",
     "ai-evaluation",
     "clinical-ai",

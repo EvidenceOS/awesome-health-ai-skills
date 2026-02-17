@@ -1,8 +1,79 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "generated": "2026-02-17",
   "description": "End-to-end workflows that chain skills into complete professional objectives",
   "workflows": [
+    {
+      "id": "elements-to-practitioner",
+      "name": "From Zero to Health AI Practitioner",
+      "description": "Complete on-ramp from no digital skills to RAIGH Tier 1 certification. Starts with digital literacy and Gen AI basics, progresses through digital health foundations, and culminates in AI evaluation competency. Designed for medical students in their first 2 years.",
+      "estimated_total_time": "26 hours (spread over 12-16 weeks)",
+      "target_outcome": "Student is digitally literate, understands Gen AI and health data ethics, masters FHIR and DHIS2, and can critically evaluate health AI studies",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Digital Foundations",
+          "skill": "digital-literacy",
+          "description": "Learn file management, cloud storage, internet safety, and professional communication",
+          "output": "Organized cloud folder + professional email + security setup"
+        },
+        {
+          "step": 2,
+          "name": "AI Awareness",
+          "skill": "gen-ai-basics-for-health",
+          "description": "Understand Gen AI, detect hallucinations, apply VERIFY framework, learn privacy rules",
+          "output": "Hallucination hunt report + VERIFY analysis + AI privacy policy"
+        },
+        {
+          "step": 3,
+          "name": "Data Rights",
+          "skill": "health-data-awareness",
+          "description": "Master health data types, patient rights, consent design, and data protection",
+          "output": "Consent form + violation analysis + country data protection summary"
+        },
+        {
+          "step": 4,
+          "name": "FHIR Basics",
+          "skill": "fhir-resource-basics",
+          "description": "Read, interpret, and create FHIR resources for health data exchange",
+          "output": "FHIR resources created and validated"
+        },
+        {
+          "step": 5,
+          "name": "DHIS2 Reporting",
+          "skill": "dhis2-data-entry",
+          "description": "Navigate DHIS2 for data entry and dashboard interpretation",
+          "output": "DHIS2 data entry completed + dashboard interpretation report"
+        },
+        {
+          "step": 6,
+          "name": "AI Study Evaluation",
+          "skill": "run-tripod-ai-checklist",
+          "description": "Apply TRIPOD+AI to evaluate a published health AI study",
+          "output": "TRIPOD+AI assessment of 1 published study"
+        },
+        {
+          "step": 7,
+          "name": "Model Calibration",
+          "skill": "evaluate-model-calibration",
+          "description": "Assess whether AI predicted probabilities match reality",
+          "output": "Reliability diagram + ECE calculation + clinical interpretation"
+        },
+        {
+          "step": 8,
+          "name": "Clinical Utility",
+          "skill": "decision-curve-analysis",
+          "description": "Determine if the model actually improves clinical decisions",
+          "output": "Decision curve + clinical recommendation"
+        }
+      ],
+      "success_criteria": [
+        "All Pre-MOOC artifacts completed (digital literacy, AI awareness, data rights)",
+        "Digital Health Foundations certificate earned",
+        "Portfolio of 3 AI evaluation artifacts (TRIPOD+AI, calibration, DCA)",
+        "Ready for PAATHI Tier 1 certification assessment"
+      ]
+    },
     {
       "id": "institutional-intelligence-pilot",
       "name": "Medical School Digital Transformation Pilot",

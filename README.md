@@ -1,9 +1,9 @@
 # Awesome Health AI Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/skills-14-blue)](data/skills_index.json)
-[![Bundles](https://img.shields.io/badge/bundles-6-green)](data/bundles.json)
-[![Workflows](https://img.shields.io/badge/workflows-2-orange)](data/workflows.json)
+[![Skills](https://img.shields.io/badge/skills-17-blue)](data/skills_index.json)
+[![Bundles](https://img.shields.io/badge/bundles-7-green)](data/bundles.json)
+[![Workflows](https://img.shields.io/badge/workflows-3-orange)](data/workflows.json)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 **Executable health AI skills for practitioners, students, and institutions.** Each skill is a structured, assessable unit with clear learning objectives, step-by-step instructions, and artifact-based assessment. Complete skills → produce artifacts → earn credentials.
@@ -33,6 +33,16 @@ Layer 4: Employment Network (RAIGH Academy guarantee)
 ---
 
 ## Skill Categories
+
+### Elements of Health AI (Pre-MOOC)
+
+The on-ramp for everyone — digital literacy, Gen AI awareness, and health data ethics. Inspired by the University of Helsinki's [Elements of AI](https://www.elementsofai.com/) (2M+ enrollments, 26 languages). No prerequisites. Smartphone-accessible.
+
+| Skill | Time | Difficulty | Description |
+|---|---|---|---|
+| [Digital Literacy](skills/pre-mooc/digital-literacy/SKILL.md) | 2h | Beginner | File management, cloud storage, internet safety, professional communication |
+| [Gen AI Basics for Health](skills/pre-mooc/gen-ai-basics-for-health/SKILL.md) | 3h | Beginner | Use Gen AI safely, detect hallucinations, VERIFY framework, privacy rules |
+| [Health Data Awareness](skills/pre-mooc/health-data-awareness/SKILL.md) | 2h | Beginner | Health data types, patient rights, consent design, data protection |
 
 ### Digital Health Foundations (MOOC)
 
@@ -98,6 +108,7 @@ Bundles are role-based skill collections mapped to RAIGH Academy certification t
 
 | Bundle | Tier | Skills | Total Time | Certification |
 |---|---|---|---|---|
+| **Elements of Health AI** | Pre-MOOC | 3 | 7h | Certificate of Completion |
 | **Digital Health Foundations** | MOOC | 3 | 9h | Certificate of Completion |
 | **AI Evaluation Practitioner** | Tier 1 | 3 | 10h | PAATHI Certified AI Health Practitioner |
 | **Clinical AI Deployer** | Tier 2 | 3 | 12h | PAATHI Certified Clinical AI Specialist |
@@ -111,13 +122,19 @@ See [bundles.json](data/bundles.json) for the machine-readable bundle definition
 
 Workflows chain skills into end-to-end professional objectives.
 
-### 1. Medical School Digital Transformation Pilot
+### 1. From Zero to Health AI Practitioner
+**Time:** ~26 hours over 12-16 weeks
+**Outcome:** Digitally literate, AI-aware, FHIR-competent, ready for Tier 1 certification
+
+`digital-literacy` → `gen-ai-basics-for-health` → `health-data-awareness` → `fhir-resource-basics` → `dhis2-data-entry` → `run-tripod-ai-checklist` → `evaluate-model-calibration` → `decision-curve-analysis`
+
+### 2. Medical School Digital Transformation Pilot
 **Time:** ~40 hours over 8-12 weeks
 **Outcome:** Institution assessed, records migrated, first dashboard live
 
 `ai-readiness-scorecard` → `medical-school-audit` → `digitalize-paper-records` → `student-record-migration` → `fhir-resource-basics` → `dhis2-data-entry`
 
-### 2. Become a Health AI Evidence Evaluator
+### 3. Become a Health AI Evidence Evaluator
 **Time:** ~20 hours over 8 weeks
 **Outcome:** Portfolio of evidence assessments, ready for Tier 1 certification
 

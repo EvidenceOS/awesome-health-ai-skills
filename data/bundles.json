@@ -1,8 +1,28 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "generated": "2026-02-17",
   "description": "RAIGH Academy skill bundles — role-based collections mapped to certification tiers",
   "bundles": [
+    {
+      "id": "elements-of-health-ai",
+      "name": "Elements of Health AI",
+      "description": "Digital literacy, generative AI basics, and health data awareness. The on-ramp for everyone — inspired by the University of Helsinki's Elements of AI (2M+ enrollments). No prerequisites. Smartphone-accessible.",
+      "raigh_tier": "MOOC",
+      "difficulty": "beginner",
+      "estimated_total_time": "7 hours",
+      "target_audience": "Anyone in health — students, workers, administrators, community health workers",
+      "certification": "PAATHI Certificate of Completion — Elements of Health AI",
+      "skills": [
+        "digital-literacy",
+        "gen-ai-basics-for-health",
+        "health-data-awareness"
+      ],
+      "learning_outcomes": [
+        "Manage files and cloud storage professionally",
+        "Use generative AI tools safely and identify hallucinations",
+        "Understand health data types, patient rights, and consent requirements"
+      ]
+    },
     {
       "id": "digital-health-foundations",
       "name": "Digital Health Foundations",
